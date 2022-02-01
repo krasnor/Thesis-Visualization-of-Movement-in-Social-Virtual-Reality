@@ -1,0 +1,768 @@
+{
+    "name": "dbg_inputs",
+    "maps": [
+        {
+            "name": "XRI HMD",
+            "id": "790b879e-e763-42ac-8fa7-27f41fefd5aa",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "a7352a5f-eaf6-4303-bdee-d80f40e67909",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "c8d42cdf-8dab-4e49-a1ca-90fb80b4adb5",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "testEye",
+                    "type": "Value",
+                    "id": "596a061b-8a91-4278-9951-935af99c7af1",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e374e824-0f24-4ca4-9bcb-f6f211da80a3",
+                    "path": "<XRHMD>/centerEyePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8de721ca-5085-447e-94b8-3a2557f67496",
+                    "path": "<XRHMD>/centerEyeRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e10a7f8-6c63-4a75-9989-0922f069b72b",
+                    "path": "<EyeGaze>/{pose}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "testEye",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRI Left Controller d",
+            "id": "a8838d7b-f4e1-4bd5-96ea-04d2fb5c2610",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "3299d271-29a8-4c16-87e3-bf82b12cfada",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "7b22c727-53e6-42ca-ab6b-496b76f702fa",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "502f73d7-1615-44f3-ab12-43a7936bc9ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "06680f56-1f71-4972-964d-9143f145cc35",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Teleport Mode Activate",
+                    "type": "Button",
+                    "id": "4e9f99c2-5ab4-4a37-b8c8-562450b4c005",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e292f4b8-7c36-4e33-9bee-b82e0c67c5b7",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd963466-91e4-4027-a02f-e0c9e28ffa54",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e11049a6-15f8-4cb7-a990-93aed726fc9c",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18ef2a4e-3954-4d37-bf96-2a92f459e0a9",
+                    "path": "<XRController>{LeftHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c4ed8dd-186d-4ed5-aa2d-a23b5ecd893b",
+                    "path": "<XRController>{LeftHand}/{primaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "92647574-957e-4b98-a113-238754eb662b",
+                    "path": "<XRController>{LeftHand}/{primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRI Right Controller d",
+            "id": "7b410e41-757a-4fde-a859-22fa4fa187d0",
+            "actions": [
+                {
+                    "name": "MyDebugButtonAction",
+                    "type": "Button",
+                    "id": "267c126f-7d3d-4495-b20a-9ab0742e544d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "1824d2aa-e937-47c8-bb3d-06f0cf084072",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "ef1c8823-030f-423c-bac2-d3a2fe61ddab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Activate",
+                    "type": "Button",
+                    "id": "cafd87e3-c2ac-4925-9b1b-af4f6fa878fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "UI Press",
+                    "type": "Button",
+                    "id": "421d20a5-0a8f-409a-8896-5076e10234dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Haptic Device",
+                    "type": "PassThrough",
+                    "id": "8d740306-efba-4c55-92e6-a594fd248ef7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Teleport Select",
+                    "type": "Button",
+                    "id": "d833a23f-285f-4e12-a40c-d195e8dcf380",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Teleport Mode Activate",
+                    "type": "Button",
+                    "id": "a8e1f3aa-a8ff-4456-abf2-5460b21d970e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "My TP Mode Activate",
+                    "type": "Button",
+                    "id": "87b91457-aa95-4f7b-82d6-0a18484cc4b9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Teleport Mode Cancel",
+                    "type": "Button",
+                    "id": "4a50595d-1370-44f0-94b6-905b30769b72",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Turn",
+                    "type": "Value",
+                    "id": "e65ef622-425c-4786-abeb-4114c7717cfe",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2ec85dce-09a3-4a98-936c-5a6307f493bb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate Anchor",
+                    "type": "Value",
+                    "id": "29edf2fa-cb50-4d90-9336-3aabc4bcdb0d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Translate Anchor",
+                    "type": "Value",
+                    "id": "eacc2764-d759-4d1e-a9f3-83afdb5cd862",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "89b06926-47d2-45a6-a291-4c93db7ba260",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "test",
+                    "type": "Value",
+                    "id": "4c4869ff-62d0-4b5b-a5ed-b028508d6120",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "1f450f3f-6535-4b4d-a3aa-7242251a2155",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "53d84c89-019d-42a5-9a46-c273c2c23371",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MyDebugSectorPressAction",
+                    "type": "Button",
+                    "id": "27131985-25b0-4f25-bf8a-8acd0837cde5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b21e89d1-22bf-4e53-a17e-a22ac5837853",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da5e819d-3ea9-4f0a-bdc9-0a1c53515512",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "5fbe22df-ada1-488f-aaa5-e03cfb566e8e",
+                    "path": "2DVector(mode=2)",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "",
+                    "action": "Translate Anchor",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "1bce752c-fc0e-425d-983b-b964015cc21f",
+                    "path": "<XRController>{RightHand}/Primary2DAxis/y",
+                    "interactions": "",
+                    "processors": "Clamp(max=1)",
+                    "groups": "Generic XR Controller",
+                    "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "3d22a2a8-da2a-488d-9276-5364b480d15d",
+                    "path": "<XRController>{RightHand}/Primary2DAxis/y",
+                    "interactions": "",
+                    "processors": "Clamp(min=-1),Invert",
+                    "groups": "Generic XR Controller",
+                    "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "c6592706-ec8c-452a-ba90-8b5e43793784",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "0aaf422e-d350-4523-a47e-13242b050fd1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "8d816f9a-bff9-4b80-9e94-8e29411c3fe0",
+                    "path": "2DVector(mode=2)",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "",
+                    "action": "Rotate Anchor",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "229d40ba-617a-4672-bd68-b51edaad5726",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "81945e9e-65b7-4294-8e75-b695d04a2715",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "57d33812-db91-4979-95bc-ebe04b3e90b2",
+                    "path": "<XRController>{RightHand}/Primary2DAxis/x",
+                    "interactions": "",
+                    "processors": "Clamp(min=-1),Invert",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d988e797-670c-4a4f-8267-77abee68efd6",
+                    "path": "<XRController>{RightHand}/Primary2DAxis/x",
+                    "interactions": "",
+                    "processors": "Clamp(max=1)",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "5fc3d877-236a-4be4-9330-043c96a1091c",
+                    "path": "<XRController>{RightHand}/Primary2DAxis",
+                    "interactions": "Sector(directions=12,sweepBehavior=1)",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ea24f975-d44a-4037-b1f0-194492126ccb",
+                    "path": "<XRController>{RightHand}/Primary2DAxis",
+                    "interactions": "Sector(directions=2,sweepBehavior=2)",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4ebf4dca-7bc6-42db-b2b8-a76d1d4ba4c6",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Mode Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95c1d393-c982-4143-a81e-a18032940b2b",
+                    "path": "<XRController>{RightHand}/{primaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f2dd6da8-4a15-4954-95f2-1e62de9965d6",
+                    "path": "<XRController>{RightHand}/{primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "84037624-84dd-49f0-a3f3-115d79105ffc",
+                    "path": "<XRController>{RightHand}/Primary2DAxis",
+                    "interactions": "Sector(directions=-1,sweepBehavior=3)",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30ecf542-7a97-4da9-ba8b-0a6ab830ce4f",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ce4ca47-e13a-43ba-bbf0-a6c5eb3dbce9",
+                    "path": "<XRController>{RightHand}/*",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Haptic Device",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18cb480e-2baa-4a36-a601-32ebf97f914c",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "UI Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f521c55-4069-4c6a-8030-fa1ab4690dab",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "03069977-4ce2-489d-b3e1-c6471dc299ad",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4cacb8b1-37fb-4d5d-85ea-43403c8ca943",
+                    "path": "<XRController>{RightHand}/primary2DAxisClick",
+                    "interactions": "Sector(directions=1)",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "My TP Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b86e4895-335d-4bd2-8fbb-fdfb8ad67660",
+                    "path": "<XRController>{RightHand}/secondary2DAxisClick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "My TP Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca8fac82-e757-476c-8919-059e4f4a8070",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "My TP Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e8edde38-e79f-470a-8189-1492dd322cc5",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "My TP Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9568c160-bd9e-44de-a3b5-5da1d628b771",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "test",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c7ee50a-fe38-4ef6-8075-57b2fa61b8e3",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9b4590c-fc60-47e3-bbe3-973f4a66e1a1",
+                    "path": "<XRController>{RightHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "020df062-1524-4589-8936-1dfa8b4e0e9c",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MyDebugButtonAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "424bc9b7-edea-4d86-8d83-3dd848794011",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MyDebugButtonAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a3e1703d-3fd2-49a3-8c69-73e8617e9950",
+                    "path": "<XRController>{RightHand}/primary2DAxisTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MyDebugButtonAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f5e72426-2050-4470-8bcb-5af85dd5aa93",
+                    "path": "<XRController>{RightHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MyDebugButtonAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Debug",
+            "id": "5f7ddaa2-9663-428e-9030-b03c4971f3bc",
+            "actions": [
+                {
+                    "name": "ToggleDebugUI",
+                    "type": "Button",
+                    "id": "337c5031-8dc1-42da-a30d-7ec4ec0a31da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Button With One Modifier",
+                    "id": "7d7d6fd2-0aff-4b08-8fa8-c7575f6258c6",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleDebugUI",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "eb719a23-05cb-4041-a515-13a79897b165",
+                    "path": "<Keyboard>/f12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleDebugUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "d2fe5ffb-149f-4fc2-aa3c-ffe683fad314",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleDebugUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

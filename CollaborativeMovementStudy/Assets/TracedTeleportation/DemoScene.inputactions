@@ -1,0 +1,280 @@
+{
+    "name": "DemoScene",
+    "maps": [
+        {
+            "name": "XRI HMD",
+            "id": "790b879e-e763-42ac-8fa7-27f41fefd5aa",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "a7352a5f-eaf6-4303-bdee-d80f40e67909",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "c8d42cdf-8dab-4e49-a1ca-90fb80b4adb5",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e374e824-0f24-4ca4-9bcb-f6f211da80a3",
+                    "path": "<XRHMD>/centerEyePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8de721ca-5085-447e-94b8-3a2557f67496",
+                    "path": "<XRHMD>/centerEyeRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRI Left Controller",
+            "id": "a8838d7b-f4e1-4bd5-96ea-04d2fb5c2610",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "3299d271-29a8-4c16-87e3-bf82b12cfada",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "7b22c727-53e6-42ca-ab6b-496b76f702fa",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "502f73d7-1615-44f3-ab12-43a7936bc9ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "06680f56-1f71-4972-964d-9143f145cc35",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Teleport Mode Activate",
+                    "type": "Button",
+                    "id": "4e9f99c2-5ab4-4a37-b8c8-562450b4c005",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e292f4b8-7c36-4e33-9bee-b82e0c67c5b7",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd963466-91e4-4027-a02f-e0c9e28ffa54",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e11049a6-15f8-4cb7-a990-93aed726fc9c",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18ef2a4e-3954-4d37-bf96-2a92f459e0a9",
+                    "path": "<XRController>{LeftHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c4ed8dd-186d-4ed5-aa2d-a23b5ecd893b",
+                    "path": "<XRController>{LeftHand}/{primaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "92647574-957e-4b98-a113-238754eb662b",
+                    "path": "<XRController>{LeftHand}/{primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRI Right Controller",
+            "id": "7b410e41-757a-4fde-a859-22fa4fa187d0",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "1824d2aa-e937-47c8-bb3d-06f0cf084072",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "89b06926-47d2-45a6-a291-4c93db7ba260",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "1f450f3f-6535-4b4d-a3aa-7242251a2155",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "53d84c89-019d-42a5-9a46-c273c2c23371",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Teleport Mode Activate",
+                    "type": "Button",
+                    "id": "a8e1f3aa-a8ff-4456-abf2-5460b21d970e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "da5e819d-3ea9-4f0a-bdc9-0a1c53515512",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b21e89d1-22bf-4e53-a17e-a22ac5837853",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c7ee50a-fe38-4ef6-8075-57b2fa61b8e3",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9b4590c-fc60-47e3-bbe3-973f4a66e1a1",
+                    "path": "<XRController>{RightHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95c1d393-c982-4143-a81e-a18032940b2b",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f2dd6da8-4a15-4954-95f2-1e62de9965d6",
+                    "path": "<XRController>{RightHand}/{primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
